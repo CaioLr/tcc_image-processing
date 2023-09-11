@@ -10,5 +10,6 @@ config = {
     "messagingSenderId":os.getenv('messagingSenderId'), 
     "appId":os.getenv('appId'),            
     "measurementId":os.getenv('measurementId'),
-    "keyFirebase": "keyFirebase.json"
+    "keyFirebase": "keyFirebase.json",
+    "databaseURL": os.getenv('databaseURL')
 }
